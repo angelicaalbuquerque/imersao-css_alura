@@ -1,0 +1,283 @@
+/* soft reset css */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #6bd1ff;
+  background-size: auto 100vh;
+  height: 100vh;
+  font-family: "Source Code Pro", monospace;
+  font-size: 12px;
+}
+
+/* breakpoint */
+@media (min-width: 400px) {
+  body {
+    font-size: 14px;
+  }
+}
+
+/* breakpoint */
+@media (min-width: 600px) {
+  body {
+    font-size: 18px;
+  }
+}
+
+/* breakpoint */
+@media (min-width: 1200px) {
+  body {
+    font-size: 20px;
+  }
+}
+
+header {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu {
+  background-color: white;
+  position: fixed;
+  width: 100vw;
+  top: 0;
+  z-index: 1;
+}
+
+.menu ul {
+  display: flex;
+  justify-content: flex-end;
+  text-transform: uppercase;
+}
+
+.menu li {
+  list-style: none;
+  font-family: "Jost", sans-serif;
+}
+
+.menu a {
+  display: block;
+  padding: 10px 20px;
+  color: #0089ef;
+  text-decoration: none;
+  /* transition: background-color 1s, color 1s; */
+}
+
+.menu a:active,
+.menu a:hover {
+  background-color: #f1356d;
+  color: white;
+  text-decoration: underline;
+}
+
+.icons a {
+  color: #3a2c60;
+  text-decoration: none;
+}
+
+.icons a:hover {
+  color: #f1356d;
+  text-decoration: none;
+}
+
+/* .titulo {
+  transform: scale(0.2) translateY(50vh);
+  opacity: 0;
+  animation: 1s ease 2s animacaoTitulo forwards;
+}
+
+@keyframes animacaoTitulo {
+  from {
+    transform: scale(0.2) translateY(50vh);
+    opacity: 0;
+  }
+  to {
+    transform: scale(1) translateY(0);
+    opacity: 1;
+  }
+} */
+
+/* TÍTULO / SUBTÍTULO */
+.site-subtitle,
+.site-title {
+  text-align: center;
+}
+
+.site-title {
+  font-family: "Jost", sans-serif;
+  font-size: 4em;
+  color: #3a2c60;
+}
+
+.site-subtitle {
+  line-height: 1.8em;
+  font-family: "Zilla Slab", serif;
+  color: #f1356d;
+}
+
+.site-subtitle:after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background: #f1356d;
+  margin: 14px auto 10px auto;
+}
+
+.site-subtitle:before {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background: #f1356d;
+  margin: 14px auto 10px auto;
+}
+
+/* SOBRE */
+
+.sobre {
+  background: #f9f9f9;
+  color: #0089ef;
+  min-height: 400px;
+  padding: 2em;
+}
+
+.sobre h2 {
+  font-family: "Righteous", cursive;
+  font-size: 2em;
+  margin-bottom: 1.5em;
+  text-align: center;
+  color: #0089ef;
+}
+
+.sobre h2:after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background: #0089ef;
+  margin: 14px auto 10px auto;
+}
+
+.sobre p {
+  color: #3a2c60;
+  text-align: left;
+  margin: 0 0 1.5em;
+  font-size: 1em;
+}
+
+.sobre h3 {
+  margin: 0 0 1.5em;
+}
+
+/* .sobre h3:after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background: #0089ef;
+  margin: 10px 0 10px 0;
+} */
+
+/* PORTFÓLIO */
+.portfolio {
+  background-color: #f1f1f1;
+  color: #3a2c60;
+  padding: 2em;
+  /* min-height: 100vh; */
+  min-height: 500px;
+}
+
+.portfolio h2 {
+  font-family: "Righteous", cursive;
+  font-size: 2em;
+  color: #0089ef;
+  margin-bottom: 1.5em;
+  text-align: center;
+}
+
+.portfolio h2::after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background: #0089ef;
+  margin: 14px auto 10px auto;
+}
+
+.portfolio .grid {
+  display: grid;
+}
+
+@media (min-width: 560px) {
+  .portfolio .grid {
+    display: grid;
+    grid-template-columns: 260px 260px;
+    justify-content: center;
+  }
+  .portfolio {
+    min-height: 400px;
+  }
+}
+
+@media (min-width: 1000px) {
+  .portfolio .grid {
+    grid-template-columns: repeat(4, 200px);
+    justify-content: center;
+    align-content: center;
+  }
+}
+
+@media (min-width: 1165px) {
+  .portfolio .grid {
+    grid-template-columns: repeat(4, 200px);
+    align-content: center;
+    justify-content: center;
+    gap: 5em;
+  }
+}
+
+.portfolio figure {
+  text-align: center;
+}
+
+.img-portfolio {
+  width: 100px;
+  object-fit: cover;
+}
+
+@media (min-width: 1200px) {
+  .img-portfolio {
+    width: 8em;
+  }
+}
+
+/* CONTATO */
+.contato {
+  background: #d8d8d8;
+  color: #0089ef;
+  min-height: 400px;
+  padding: 2em;
+}
+
+.contato h2 {
+  font-family: "Righteous", cursive;
+  font-size: 2em;
+  margin-bottom: 1.5em;
+  text-align: center;
+  color: #0089ef;
+}
+
+.contato h2:after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background: #0089ef;
+  margin: 14px auto 10px auto;
+}
