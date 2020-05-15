@@ -9,7 +9,8 @@ body {
   background-color: #6bd1ff;
   background-size: auto 100vh;
   height: 100vh;
-  font-family: "Source Code Pro", monospace;
+  /* font-family: "Source Code Pro", monospace; */
+  font-family: "Zilla Slab", serif;
   font-size: 12px;
 }
 
@@ -75,10 +76,8 @@ header {
   text-decoration: underline;
 }
 
-/* .titulo {
-  transform: scale(0.2) translateY(50vh);
-  opacity: 0;
-  animation: 1s ease 2s animacaoTitulo forwards;
+.titulo {
+  animation: linear 2s animacaoTitulo forwards;
 }
 
 @keyframes animacaoTitulo {
@@ -90,9 +89,8 @@ header {
     transform: scale(1) translateY(0);
     opacity: 1;
   }
-} */
+}
 
-/* TÍTULO / SUBTÍTULO */
 .site-subtitle,
 .site-title {
   text-align: center;
@@ -159,9 +157,11 @@ header {
   text-align: left;
   margin: 0 0 1.5em;
   font-size: 1em;
+  line-height: 1.5em;
 }
 
 .sobre h3 {
+  font-family: "Righteous", cursive;
   margin: 0 0 1.5em;
 }
 
@@ -174,8 +174,8 @@ header {
   margin: 10px 0 10px 0;
 } */
 
-/* PORTFÓLIO */
-.portfolio {
+/* SERVIÇOS */
+.servicos {
   background-color: #f1f1f1;
   color: #3a2c60;
   padding: 2em;
@@ -183,7 +183,7 @@ header {
   min-height: 500px;
 }
 
-.portfolio h2 {
+.servicos h2 {
   font-family: "Righteous", cursive;
   font-size: 2em;
   color: #0089ef;
@@ -191,7 +191,7 @@ header {
   text-align: center;
 }
 
-.portfolio h2::after {
+.servicos h2::after {
   content: "";
   display: block;
   width: 60px;
@@ -200,23 +200,23 @@ header {
   margin: 14px auto 10px auto;
 }
 
-.portfolio .grid {
+.servicos .grid {
   display: grid;
 }
 
 @media (min-width: 560px) {
-  .portfolio .grid {
+  .servicos .grid {
     display: grid;
     grid-template-columns: 260px 260px;
     justify-content: center;
   }
-  .portfolio {
+  .servicos {
     min-height: 400px;
   }
 }
 
 @media (min-width: 1000px) {
-  .portfolio .grid {
+  .servicos .grid {
     grid-template-columns: repeat(4, 200px);
     justify-content: center;
     align-content: center;
@@ -224,7 +224,7 @@ header {
 }
 
 @media (min-width: 1165px) {
-  .portfolio .grid {
+  .servicos .grid {
     grid-template-columns: repeat(4, 200px);
     align-content: center;
     justify-content: center;
@@ -232,17 +232,22 @@ header {
   }
 }
 
-.portfolio figure {
+.servicos figure {
   text-align: center;
 }
 
-.img-portfolio {
+.img-servicos {
   width: 100px;
   object-fit: cover;
+  transition: transform 500ms;
+}
+
+.img-servicos:hover {
+  transform: scale(1.2);
 }
 
 @media (min-width: 1200px) {
-  .img-portfolio {
+  .img-servicos {
     width: 8em;
   }
 }
@@ -295,6 +300,7 @@ header {
   text-align: center;
   margin: 0 0 1.5em;
   font-size: 1em;
+  line-height: 1.5em;
 }
 
 /* Footer */
