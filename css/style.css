@@ -129,7 +129,7 @@ header {
 /* SOBRE */
 
 .sobre {
-  background: #f9f9f9;
+  background: #f8f9fd;
   color: #0089ef;
   min-height: 400px;
   padding: 2em;
@@ -176,7 +176,7 @@ header {
 
 /* SERVIÇOS */
 .servicos {
-  background-color: #f1f1f1;
+  background-color: #ebecf1;
   color: #3a2c60;
   padding: 2em;
   /* min-height: 100vh; */
@@ -254,7 +254,7 @@ header {
 
 /* CONTATO */
 .contato {
-  background: #d8d8d8;
+  background: #e1e2e6;
   color: #0089ef;
   min-height: 400px;
   padding: 2em;
