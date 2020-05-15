@@ -287,3 +287,25 @@ header {
 .contato .icons {
   text-align: center;
 }
+
+.contato p {
+  color: #3a2c60;
+  text-align: center;
+  margin: 0 0 1.5em;
+  font-size: 1em;
+}
+
+/* Footer */
+
+.rodape {
+  background: rgb(36, 39, 44);
+  background-size: 100vh;
+  padding: 10px;
+}
+
+.rodape p {
+  color: whitesmoke;
+  text-align: center;
+  font-size: 16px;
+  font-family: "Jost", sans-serif;
+}
