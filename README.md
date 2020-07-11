@@ -5,7 +5,16 @@
 <h2 align="center">Imersão CSS | <img alt="badge alura" align="center" src=".github\alura.svg"></h2>
 
 <p align="center">
+<img alt="badge html" src=".github\html.svg">
+<img alt="badge css" src=".github\css.svg">
 <img alt="badge vscode" src=".github\visual_studio_code.svg">
+<img alt="badge prettier" src=".github\prettier-2.svg">
+</p>
+
+<p align="center">
+<img alt="Made by Angélica Albuquerque" src="https://img.shields.io/badge/made%20by-Angélica Albuquerque-%20?color=FDA53D">
+<img alt="Repository size" src="https://img.shields.io/github/repo-size/angelicaalbuquerque/imersao-css_alura?color=FDA53D">
+<img alt="Last commit on GitHub" src="https://img.shields.io/github/last-commit/angelicaalbuquerque/imersao-css_alura?color=FDA53D">
 </p>
 
 ---
@@ -20,7 +29,7 @@
 ## ℹ️ Sobre
 
 <p>
-Oferecido pela <a href="https://www.alura.com.br/imersao-css" target="_blank">Alura</a>, nesta imersão criamos e publicamos um portfólio desenvolvido com HTML e CSS.
+Oferecido pela <a href="https://www.alura.com.br/imersao-css" target="_blank">Alura</a>, nesta imersão criamos e publicamos um portfólio desenvolvido puramente com HTML e CSS.
 </p>
 
 <p>
@@ -81,7 +90,7 @@ Foram 5 aulas inéditas, explorando o CSS de forma elegante, com os instrutores:
 
 ## 💻 Projeto
 
-Em breve.
+Clique [aqui](https://angelicaalbuquerque.github.io/imersao-css_alura/) e veja a conclusão do estudo desta imersão, que resultou na elaboração de um portfólio pessoal.
 
 </p>
 
@@ -89,8 +98,8 @@ Em breve.
 
 <p>O projeto foi desenvolvido com as seguintes tecnologias:</p>
 
-- HTML
-- CSS
+- [HTML](https://www.w3schools.com/html/)
+- [CSS](https://www.w3schools.com/css/)
 - [Prettier](https://prettier.io/)
 - [Visual Studio Code](https://code.visualstudio.com/)
 

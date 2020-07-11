@@ -1,0 +1,126 @@
+background-size: auto 100vh; 
+O auto mantém a proporção da largura, enquanto 100vh é o tamanho da altura da tela naquele momento
+
+height: 100vh; 
+garante que a altura do body sempre vai ser a mesma
+
+
+Display: inline não pega padding.
+
+Flexbox: Ele força sempre tudo a ser coluna. E faz o tamanho de uma maneira que não conseguimos definir muito bem. O Flexbox é utilizado para quando eu não me importo muito/não quero controlar muito bem como essas colunas vão quebrar em quantidade e não me importa muito a quantidade de linhas que vão ser geradas pela quantidade de colunas.
+
+Grid: Trabalho com mais precisão no número de colunas. Você que diz quantas colunas quer, ele não força as colunas, mantendo as linhas. Existe a propriedade gap que define o espaçamento entre cada coluna e o grid. Essa propriedade gap é mais adequada que usar margin, quando trata-se de grid.
+
+"Flex: colunas à la loca, o CSS comanda e eu confio. Grid: preciso exatamente desse número de colunas; eu faço as minhas colunas". 
+
+
+grid-template-columns: repeat(3, 240px); é a mesma coisa que grid-template-columns: 240px 240px 240px;
+
+
+object-position: mexe no ponto especicio da imagem;
+objetct-fit: cropa a imagem
+
+-------------
+Dev Tools
+Flex x Grid
+Icones e Ilustrações
+Boas referencias
+
+  color: #3a2c60;
+
+
+
+ferramenta para perceber visualmente a diferença das funções de movimento que usamos nas animações. http://www.roblaplaca.com/examples/bezierBuilder/
+
+===========================================
+
+estamos vendo um pouco mais sobre tipos de cores que podemos usar no CSS, o link para o seletor de cores que você vai ver no vídeo está aqui.
+https://developer.mozilla.org/pt-BR/docs/Web/CSS/CSS_Colors/seletor_de_cores
+
+Pra quem gostou de animar, uma ferramenta para perceber visualmente a diferença das funções de movimento que usamos nas animações.
+http://www.roblaplaca.com/examples/bezierBuilder/
+
+CSS Grid
+https://developer.mozilla.org/pt-BR/docs/Web/CSS/grid
+https://css-tricks.com/snippets/css/complete-guide-grid/
+
+
+
+-O CSS aceita uma quantidade boa de unidades de medida - pixels (px), altura do viewport (vh), largura do viewport (vw), em, % e mais algumas! A gente vai praticar durante as aulas, mas segue um guia das unidades para você poder consultar quando quiser.
+https://www.alura.com.br/artigos/guia-de-unidades-no-css
+
+A ferramenta Flex (também chamamos de Flexbox) é super usada no CSS para criar leiautes responsivos. Essa ferramenta tem várias propriedades que podem ser usadas de diversas formas e este guia tem exemplos ilustrados e dicas de uso que cobrem uma boa parte delas.
+https://www.alura.com.br/artigos/css-guia-do-flexbox
+
+O guia de Flexbox acima foi traduzido para o português a partir do site CSS Tricks, um dos maiores repositórios de conteúdo sobre o assunto! (em inglês)
+https://css-tricks.com/
+
+
+
+Assistir dois videos extras sobre conteúdos super importantes: um sobre box-model e outro sobre box-sizing.
+https://www.youtube.com/watch?v=pZrAG27KZSg&feature=youtu.be
+https://www.youtube.com/watch?v=Q33ojlocKc0&feature=youtu.be
+
+https://www.freecodecamp.org/news/complete-css-grid-tutorial/
+
+Saiba mais sobre as tags do html
+https://www.caelum.com.br/apostila-html-css-javascript/introducao-a-html-e-css/#tags-html
+
+Vamos falar muito sobre seletores durante todas as aulas, então é bacana entender um pouco sobre como funcionam as especificidades no CSS e como elas nos ajudam.
+https://www.caelum.com.br/apostila-html-css-javascript/css-avancado/#para-saber-mais-especificidade-de-seletores-css
+
+Usamos algumas cores no projeto chamando por nomes em inglês, como “teal” e “whitesmoke”. Você pode conferir a lista completa dos nomes dessas cores prontas aqui.
+https://htmlcolorcodes.com/color-names/
+
+Não precisa saber trabalhar com o Git para acompanhar as aulas, mas ele é um dos melhores amigos de quem trabalha com desenvolvimento, então segue um material sobre Github e Git.
+https://www.slideshare.net/vanessametonini/controle-de-verso-com-git-167234722
+
+
+
+Gostou da arte generativa? Os exemplos que mostramos na aula estão aqui e o link da biblioteca CSS Doodle. Explore como funciona a propriedade background-attachment, e use ela na tag body para perceber as diferenças.
+https://codepen.io/cobra_winfrey/pen/zYvdKPG
+https://css-doodle.com/
+
+No Brasil temos uma dev que faz este tipo de arte com CSS, conheçam o trabalho da Tainá Simões aqui e aqui.
+https://github.com/tainasimoes/generative-art
+http://tainasimoes.com.br/generative-art/
+
+Quando posso usar determinada propriedade de CSS ou tag HTML? O site “Can I Use?” ["eu posso usar?" em português] te ajuda a decidir, baseado em quais navegadores e versões já têm suporte para elas.
+https://caniuse.com/
+
+Para trabalhar com a propriedade clip-path como foi feito no vídeo da aula, usamos o site Clippy.
+https://bennettfeely.com/clippy/
+
+Para saber mais: outras maneiras de fazer "máscaras" utilizando o CSS.
+https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Masking
+
+Falamos um pouco no vídeo sobre a máquina de Turing. Bateu a curiosidade? O que é Turing Complete?
+https://pt.wikipedia.org/wiki/Turing_completude
+
+O que é uma tag semântica? Um material bacana para consultar sobre HTML é o Dive Into HTML5 e esse link explica um pouco sobre o assunto.
+https://diveintohtml5.com.br/semantics.html#new-elements
+
+
+
+
+
+
+
+
+
+Desafios da Vanessa
+Loaders/spinners são aquelas animações que aparecem na tela para indicar que o site/app está carregando. Fica o desafio para você animar um spinner só com CSS, usando o Codepen.
+As propriedades transition e transform têm vários valores que podem ser usados de várias formas. Explore as possibilidades!
+Agora que já sabemos animar elementos, que tal um background animado com transição de cores? Se preferir, pode fazer no Codepen.
+CSS Legado com float: Quando usar essa propriedade?
+
+Desafios do Paulo
+Recrie aquele texto de abertura do Star Wars utilizando as ferramentas de animação que vimos na aula!
+Ajustar a posição das âncoras: Quando clicamos no menu o navegador nos leva até o elemento que tem aquele ID, porém corta um pouco o título da seção... Como fazer com que pare numa posição que o menu não fique por cima do título?
+
+Mega desafio menu hambúrguer: Este desafio precisa de JavaScript (JS). Você vai usar o JS para adicionar uma classe dinamicamente ao menu escondido pelo CSS; esta classe, quando adicionada, vai mover o menu deixando ele visível na área da tela. E precisa de JS novamente para, quando o ícone for clicado com o menu aberto, o clique também remova a classe, fazendo com que o menu se esconda novamente (essa classe deve conter transition e transform + translate) ??
+
+Desafios da Juliana
+https://getbootstrap.com/docs/4.0/getting-started/introduction/
+Você já pode ter ouvido falar da ferramenta Bootstrap. Pesquise como incluir o Bootstrap em uma página e como usar seus componentes (alguns têm JS!). Você pode fazer isso em outro HTML se quiser.
+Usar ícones com a tag é um dos jeitos de fazer, mas não o único! Tente usar os recursos do Icomoon, que são um pouco diferentes, para inserir ícones no seu site.
